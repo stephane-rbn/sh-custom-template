@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+          rel="stylesheet"
+          integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+          crossorigin="anonymous">
+    <!-- npm install @mdi/font-->
+    <link rel="stylesheet" href="https://cdn.materialdesignicons.com/5.1.45/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="main-layout container-fluid">
+        <div class="row">
+            <!-- LEFT SIDE -->
+            <div class="left-side col-md-2">
+                <div class="browse-music-section">
+                    <p class="lead browse-music-section-title">BROWSE MUSIC</p>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <span class="mdi mdi-music-note"></span>
+                                Discover
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-headphones" aria-hidden="true"></i>
+                                New Releases
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-music" aria-hidden="true"></i>
+                                Charts
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-podcast" aria-hidden="true"></i>
+                                Podcasts
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="your-music-section">
+                    <p class="lead your-music-section-title">YOUR MUSIC</p>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-music" aria-hidden="true"></i>
+                                Songs
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-music" aria-hidden="true"></i>
+                                Albums
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-music" aria-hidden="true"></i>
+                                Artists
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-music" aria-hidden="true"></i>
+                                Stations
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="playlists-section">
+                    <div style="display: flex;">
+                        <p class="lead playlists-section-title">PLAYLISTS</p>
+                        <a href="#">
+                            <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                        </a>
+                    </div>
+
+                    <ul>
+                        <li><a href="#">Summer playlist</a></li>
+                        <li><a href="#">Workout</a></li>
+                        <li><a href="#">All times favorites</a></li>
+                        <li><a href="#">Road trip</a></li>
+                        <li><a href="#">Post Rock</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- RIGHT SIDE -->
+            <div class="right-side col-md">
+                <nav class="pl-4 pr-4">
+                    <form class="nav-search-form">
+                        <label>
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                            <input type="text" placeholder="Search...">
+                        </label>
+                    </form>
+                    <div class="nav-notification-button">
+                        <button><i class="fa fa-bell-o" aria-hidden="true"></i></button>
+                    </div>
+                    <a href="#">
+                        <div class="nav-profile">
+                            <img src="https://www.esgi.fr/ecole-informatique/Frederic_Sananes.jpg" alt="profile picture" class="nav-profile-picture-icon">
+                        </div>
+                    </a>
+                </nav>
+
+                <header class="page-banner" style='background-image: url("https://i2.wp.com/www.iconicmnl.com/wp-content/uploads/2019/06/Blackpink.jpeg?fit=1440%2C720&ssl=1");'></header>
+
+                <div class="main-content container-fluid">
+                    <section class="top-tracks-container">
+                        <h1 class="section-title track-list-title">Top Tracks</h1>
+
+                        <div class="track-list">
+                            <div class="track-container container rounded">
+                                <div class="row pl-3 pr-3">
+                                    <img src="https://via.placeholder.com/100x200" class="track-cover rounded" alt="track cover">
+                                    <div class="track-title font-weight-bold align-self-center text-left col-sm-8">My song title</div>
+                                    <div class="track-duration align-self-center text-center col-sm-1">4:35</div>
+                                    <div class="track-listen-count align-self-center text-center col-sm-1">240,780</div>
+                                    <div class="track-dots-options align-self-center text-center col-sm-1">
+                                        <span class="mdi mdi-dots-horizontal col-sm-1"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="track-container container rounded">
+                                <div class="row pl-3 pr-3">
+                                    <img src="https://via.placeholder.com/100x200" class="track-cover rounded" alt="track cover">
+                                    <div class="track-title font-weight-bold align-self-center text-left col-sm-8">My great but very long song title</div>
+                                    <div class="track-duration align-self-center text-center col-sm-1">4:35</div>
+                                    <div class="track-listen-count align-self-center text-center col-sm-1">240,780</div>
+                                    <div class="track-dots-options align-self-center text-center col-sm-1">
+                                        <span class="mdi mdi-dots-horizontal col-sm-1"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="track-container container rounded">
+                                <div class="row pl-3 pr-3">
+                                    <img src="https://via.placeholder.com/100x200" class="track-cover rounded" alt="track cover">
+                                    <div class="track-title font-weight-bold align-self-center text-left col-sm-8">Chanson révolutionnaire contre la capitalisme dont le titre est trop long</div>
+                                    <div class="track-duration align-self-center text-center col-sm-1">4:35</div>
+                                    <div class="track-listen-count align-self-center text-center col-sm-1">240,780</div>
+                                    <div class="track-dots-options align-self-center text-center col-sm-1">
+                                        <span class="mdi mdi-dots-horizontal col-sm-1"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="album-list-container">
+                        <h1 class="section-title artist-album-list-title">Albums</h1>
+
+                        <div class="album-list container-fluid">
+                            <div class="row d-flex justify-content-around">
+                                <div class="album-card-container col-sm-12 col-md-3 text-center">
+                                    <div class="m-auto" style="height: 150px; width: 150px; border: 1px solid yellow; background-color: yellow"></div>
+                                    <p class="lead">Gang</p>
+                                    <p>2018</p>
+                                </div>
+                                <div class="album-card-container col-sm-12 col-md-3"></div>
+                                <div class="album-card-container col-sm-12 col-md-3"></div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
